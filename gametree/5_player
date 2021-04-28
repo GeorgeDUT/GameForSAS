@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gambit:document xmlns:gambit="http://gambit.sourceforge.net/" version="0.1">
+<colors>
+<player id="-1" red="0" green="0" blue="0" />
+<player id="0" red="154" green="205" blue="50" />
+<player id="1" red="255" green="0" blue="0" />
+<player id="2" red="0" green="0" blue="255" />
+<player id="3" red="0" green="128" blue="0" />
+<player id="4" red="255" green="128" blue="0" />
+<player id="5" red="0" green="0" blue="64" />
+</colors>
+<font size="10" family="74" face="Helvetica" style="90" weight="92" />
+<autolayout>
+<nodes size="10" spacing="50" chance="dot" player="dot" terminal="dot"/>
+<branches size="60" tine="20" branch="forktine" labels="horizontal"/>
+<infosets connect="all" style="circles"/>
+</autolayout>
+<labels abovenode="label" belownode="isetid" abovebranch="label" belowbranch="probs" />
+<numbers decimals="4"/>
+<game>
+<efgfile>
+EFG 2 R "Untitled Extensive Game" { "Player 1" "Player 2" "Player 3" "Player 4" "Player 5" }
+""
+
+p " MV_101_0 " 1 1 "" { " open " " close " } 0
+p " P_101_0 " 2 1 "" { " on " " off " } 0
+p " MV_201_0 " 3 1 "" { " open " " close " } 0
+p " P_301_0 " 4 1 "" { " on " " off " } 0
+p " MV_302_0 " 5 1 "" { " open " " close " } 0
+t " END_0_0 " 1 "" { 10, 10, 10, 10, 10 }
+t " END_0_1 " 2 "" { -10, -10, -10, -10, -10 }
+p " MV_302_1 " 5 2 "" { " open " " close " } 0
+t " END_0_2 " 3 "" { -10, -10, -10, -10, -10 }
+t " END_0_3 " 4 "" { -10, -10, -10, -10, -10 }
+p " P_301_1 " 4 2 "" { " on " " off " } 0
+p " MV_302_2 " 5 3 "" { " open " " close " } 0
+t " END_0_4 " 5 "" { -10, -10, -10, -10, -10 }
+t " END_0_5 " 6 "" { -10, -10, -10, -10, -10 }
+p " MV_302_3 " 5 4 "" { " open " " close " } 0
+t " END_0_6 " 7 "" { -10, -10, -10, -10, -10 }
+t " END_0_7 " 8 "" { -10, -10, -10, -10, -10 }
+p " MV_201_1 " 3 2 "" { " open " " close " } 0
+p " P_301_2 " 4 3 "" { " on " " off " } 0
+p " MV_302_4 " 5 5 "" { " open " " close " } 0
+t " END_0_8 " 9 "" { -10, -10, -10, -10, -10 }
+t " END_0_9 " 10 "" { -10, -10, -10, -10, -10 }
+p " MV_302_5 " 5 6 "" { " open " " close " } 0
+t " END_0_10 " 11 "" { -10, -10, -10, -10, -10 }
+t " END_0_11 " 12 "" { -10, -10, -10, -10, -10 }
+p " P_301_3 " 4 4 "" { " on " " off " } 0
+p " MV_302_6 " 5 7 "" { " open " " close " } 0
+t " END_0_12 " 13 "" { -10, -10, -10, -10, -10 }
+t " END_0_13 " 14 "" { -10, -10, -10, -10, -10 }
+p " MV_302_7 " 5 8 "" { " open " " close " } 0
+t " END_0_14 " 15 "" { -10, -10, -10, -10, -10 }
+t " END_0_15 " 16 "" { -10, -10, -10, -10, -10 }
+p " P_101_1 " 2 2 "" { " on " " off " } 0
+p " MV_201_2 " 3 3 "" { " open " " close " } 0
+p " P_301_4 " 4 5 "" { " on " " off " } 0
+p " MV_302_8 " 5 9 "" { " open " " close " } 0
+t " END_0_16 " 17 "" { -5, -5, -5, -5, -5 }
+t " END_0_17 " 18 "" { -10, -10, -10, -10, -10 }
+p " MV_302_9 " 5 10 "" { " open " " close " } 0
+t " END_0_18 " 19 "" { -10, -10, -10, -10, -10 }
+t " END_0_19 " 20 "" { -10, -10, -10, -10, -10 }
+p " P_301_5 " 4 6 "" { " on " " off " } 0
+p " MV_302_10 " 5 11 "" { " open " " close " } 0
+t " END_0_20 " 21 "" { -10, -10, -10, -10, -10 }
+t " END_0_21 " 22 "" { -10, -10, -10, -10, -10 }
+p " MV_302_11 " 5 12 "" { " open " " close " } 0
+t " END_0_22 " 23 "" { -10, -10, -10, -10, -10 }
+t " END_0_23 " 24 "" { -10, -10, -10, -10, -10 }
+p " MV_201_3 " 3 4 "" { " open " " close " } 0
+p " P_301_6 " 4 7 "" { " on " " off " } 0
+p " MV_302_12 " 5 13 "" { " open " " close " } 0
+t " END_0_24 " 25 "" { -5, -5, -5, -5, -5 }
+t " END_0_25 " 26 "" { -5, -5, -5, -5, -5 }
+p " MV_302_13 " 5 14 "" { " open " " close " } 0
+t " END_0_26 " 27 "" { -5, -5, -5, -5, -5 }
+t " END_0_27 " 28 "" { -5, -5, -5, -5, -5 }
+p " P_301_7 " 4 8 "" { " on " " off " } 0
+p " MV_302_14 " 5 15 "" { " open " " close " } 0
+t " END_0_28 " 29 "" { -5, -5, -5, -5, -5 }
+t " END_0_29 " 30 "" { -5, -5, -5, -5, -5 }
+p " MV_302_15 " 5 16 "" { " open " " close " } 0
+t " END_0_30 " 31 "" { -5, -5, -5, 15, -5 }
+t " END_0_31 " 32 "" { 0, 0, 0, 0, 0 }
+</efgfile>
+</game>
+</gambit:document>
