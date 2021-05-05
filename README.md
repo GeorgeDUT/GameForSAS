@@ -1,7 +1,11 @@
 # GameForSAS
 This is the public version of A Component-level Game-based Framework forSecure Self-Adaptive Systems: an Application on SWaT System
 
+
 ## Requirements
+
+We use networkx to establish a component graph,
+and use gambit Python API to solve the game tree.
 
 networkx
 
