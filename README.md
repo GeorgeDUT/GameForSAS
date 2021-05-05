@@ -22,3 +22,7 @@ python generate_tree.py
 ```
 python compute_equilibrium.py
 ```
+
+## results:
+![figure](rq-test.png)
+
