@@ -1,6 +1,7 @@
 # GameForSAS
-This is the public version of A Component-level Game-based Framework forSecure Self-Adaptive Systems: an Application on SWaT System
+This is the public version of our paper:
 
+Component Level Game-Based Self-Adaptation for Secure Industrial Control System
 
 ## Requirements
 
